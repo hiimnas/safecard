@@ -23,7 +23,7 @@ function Hero() {
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-6 relative`} style={{width: 'fit-content' }}>
-        <img src='/cardpromo.png' alt='robot card' className='relative z-[5] transition duration-1000 transform hover:scale-110' style={{width: 'calc(92% - 120px)'}} />
+        <img src='./cardpromo.png' alt='robot card' className='relative z-[5] transition duration-1000 transform hover:scale-110' style={{width: 'calc(92% - 120px)'}} />
         <div className='absolute z-[0] w-[40%] h-[35%] top-0 pink-gradient' />
         <div className='absolute z-[1] w-[80%] h-[80%] bottom-40 white-gradient' />
         <div className='absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue-gradient' />
